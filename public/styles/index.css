@@ -1,0 +1,78 @@
+body {
+    background-color: white;
+}
+
+.brexitbackground {
+    margin: auto;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 5px;
+    width: 200px;
+    height: 60px;
+}
+.rightbackground {
+    margin: auto;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 450px;
+    height: 315px;
+}
+.leftbackground {
+    margin: auto;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 450px;
+    height: 315px;
+}
+
+
+.navbar {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    text-align: center;
+}
+
+.brexithead {
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+.logo {
+    margin-top: 5px;
+    width: 200px;
+    height: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 25px;
+    margin-bottom: 70px;
+    right: 0;
+    text-align: center;
+
+}
+h3 {
+    width: 250px;
+    overflow: hidden;
+    margin: auto;
+    color: #757575;
+
+}
+a {
+    text-decoration: none;
+    color: #757575;
+}
