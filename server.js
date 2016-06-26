@@ -22,6 +22,10 @@ app.use(express.static(__dirname + '/public'));
 
 var api = require('./app/routes/api')(app, express);
 app.use('/api', api);
+// test routes
+var statsRoutes = require('./app/routes/test');
+app.use('/', statsRoutes);
+
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/public/views/index.html');
