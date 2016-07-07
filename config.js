@@ -1,6 +1,6 @@
 module.exports = {
     "database": "mongodb://twitter:123456789@ds021984.mlab.com:21984/twitstats",
-    "port": process.env.Port || 2016,
+    "port": process.env.PORT || 2016,
     "secretKey": "MySecretKey",
 
     "twit": {
